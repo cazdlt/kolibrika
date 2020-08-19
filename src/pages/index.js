@@ -17,24 +17,23 @@ const Home = (props) => {
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
       </Helmet>
-      <div className="intro pb-4">
+      <div className="intro pb-8">
         <div className="container">
-          <h1>Serif - Gatsby Smasssssssll Business Theme.</h1>
+          <h1>Kolibrika</h1>
           <p>
-            Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-            is a beautiful and artfully designed starting theme.
+            Market intelligence for your business needs
           </p>
         </div>
       </div>
 
-      <div className="container pt-2">
+      {/* <div className="container pt-2">
         <Call button />
-      </div>
+      </div> */}
 
-      <div className="container pt-8 pt-md-10">
+      <div className="container mt-8 pt-8 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12">
-            <h2 className="title-3 text-dark mb-3">Our Services</h2>
+            <h2 className="title-3 text-dark mb-3">Nuestros servicios</h2>
           </div>
           {markdown.map(edge => (
             <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
@@ -50,7 +49,7 @@ const Home = (props) => {
           ))}
           <div className="col-12 text-center">
             <Link className="button button-primary mt-2" to="/services">
-              View All Services
+              Ver todos
             </Link>
           </div>
         </div>
@@ -59,7 +58,7 @@ const Home = (props) => {
       <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
         <div className="row justify-content-center">
           <div className="col-12">
-            <h2 className="title-3 text-dark mb-4">Our Features</h2>
+            <h2 className="title-3 text-dark mb-4">Con nosotros</h2>
           </div>
           {json.map(edge => (
             <div key={edge.node.id} className="col-12 col-md-6 col-lg-4 mb-2">

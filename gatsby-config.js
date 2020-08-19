@@ -2,27 +2,27 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'Kolibrika',
+    description: 'Market Intelligence',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '(+57) 315 765 8104',
+      email: 'ndelatorre@kolibrika.co',
     },
     menuLinks: [
       {
-        name: 'Services',
+        name: 'Servicios',
         link: '/services',
       },
       {
-        name: 'Team',
+        name: 'Equipo',
         link: '/team',
       },
       {
-        name: 'Testimonials',
+        name: 'Historias',
         link: '/testimonials',
       },
       {
-        name: 'Contact',
+        name: 'Contacto',
         link: '/contact',
       },
     ],
