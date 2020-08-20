@@ -22,11 +22,11 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div className="header">
+            <div className="header fixed-top">
                 <div className="container">
                     <div className="logo">
                         <Link to="/">
-                            <img alt="Figurit Homepage" src={logo} />
+                            <img alt="Figurit Homepage" src={logo} height="200px"/>
                         </Link>
                     </div>
                     <div className="logo-mobile">

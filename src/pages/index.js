@@ -10,14 +10,14 @@ const Home = (props) => {
   const json = props.data.allFeaturesJson.edges;
   return (
     <Layout bodyClass="page-home">
-      <SEO title="Home" />
+      <SEO title="Inicio" />
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="Inteligencia de mercados a la medida de su negocio."
         />
       </Helmet>
-      <div className="intro pb-8">
+      <div className="intro pb-14">
         <div className="container">
           <h1>Kolibrika</h1>
           <p>
@@ -30,7 +30,7 @@ const Home = (props) => {
         <Call button />
       </div> */}
 
-      <div className="container mt-8 pt-8 pt-md-10">
+      <div className="container mt-8 pt-10 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12">
             <h2 className="title-3 text-dark mb-3">Nuestros servicios</h2>
