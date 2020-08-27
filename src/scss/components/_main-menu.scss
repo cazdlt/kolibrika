@@ -30,13 +30,19 @@
         color: inherit;
         padding: 10px 14px 10px 14px;
         text-decoration: none;
+        &.active{
+          text-decoration: underline;
+          text-underline-position: under;
+        }
         &:hover {
           background: $primary;
           color: #fff;
-          text-decoration: none;
+          // text-decoration: none;
         }
       }
     }
+
+
     > li.active {
       > a {
         background: $primary;

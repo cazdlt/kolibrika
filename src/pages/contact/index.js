@@ -15,7 +15,7 @@ const Contact = (props) => (
         </div>
 
         <div className="container">
-            <div className="row ">
+            <div className="row pb-6">
                 <div className="col-md-8 col-sm-12 px-2 border-right border-tertiary">
                     <h4 className="my-2">Hablemos:</h4>
                     <ContactForm />

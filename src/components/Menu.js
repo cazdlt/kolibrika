@@ -3,12 +3,22 @@ import { graphql, StaticQuery, Link } from "gatsby";
 
 const Menu = (props) => {
     const { menuLinks } = props.data.site.siteMetadata;
+
+    const isActive = ({ isCurrent }) => {
+        return isCurrent ? { className: "active" } : {}
+    }
+
+    const ExactNavLink = props => (
+        <Link getProps={isActive} {...props} />
+    )
+
     return (
         <div id="main-menu" className="main-menu">
             <ul>
                 {menuLinks.map((link) => (
                     <li key={link.name}>
-                        <Link to={link.link}>{link.name}</Link>
+                        {<ExactNavLink to={link.link}>{link.name}</ExactNavLink>}
+                        {/* <Link to={link.link} activeStyle={{"brackground":"black"}}>{link.name}</Link> */}
                     </li>
                 ))}
             </ul>

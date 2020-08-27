@@ -3,12 +3,16 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 module.exports = {
   siteMetadata: {
     title: 'Kolibrika',
-    description: 'Market Intelligence',
+    description: 'Inteligencia de mercados para su negocio',
     contact: {
       phone: '(+57) 315 765 8104',
       email: 'ndelatorre@kolibrika.co',
     },
     menuLinks: [
+      {
+        name: "Inicio",
+        link: "/",
+      },
       {
         name: 'Servicios',
         link: '/services',
