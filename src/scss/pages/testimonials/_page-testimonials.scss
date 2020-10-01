@@ -1,18 +1,14 @@
 .page-testimonials {
-  background-image: url('../images/undraw_hang_out_h9ud.svg');
+  background-image: url('../images/kolikoli.png');
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
+  background-size: 60vw;
+  background-position: 100% 50px;
   @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
+    background-size: 50vw;
+    // background-position: 159px -40px;
   }
   @include media-breakpoint-up(md) {
-    background-size: 85%;
-    background-position: 199px -80px;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -110px;
+    background-size: 40vw;
+    // background-position: top right;
   }
 }
