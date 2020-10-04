@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
-            
+
             team: allMarkdownRemark(
                 filter: { fileAbsolutePath: { regex: "/team/" } }
                 sort: { fields: [frontmatter___date], order: DESC }
@@ -90,5 +90,4 @@ exports.createPages = async ({ graphql, actions }) => {
             }
         });
     });
-
 };

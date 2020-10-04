@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import SEO from "../components/SEO";
 import Layout from "../layouts/index";
 import Call from "../components/Call";
+import ServiceCard from "../components/ServiceCard";
 
 const Home = (props) => {
     const markdown = props.data.allMarkdownRemark.edges;
@@ -34,17 +35,12 @@ const Home = (props) => {
                     <div className="col-12">
                         <h2 className="title-3 text-primary mb-3">Nuestros servicios</h2>
                     </div>
-                    {markdown.map((edge) => (
-                        <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
-                            <div className="card service service-teaser">
-                                <div className="card-content">
-                                    <h2>
-                                        <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
-                                    </h2>
-                                    <p>{edge.node.excerpt}</p>
-                                </div>
-                            </div>
-                        </div>
+                    {markdown.map(({ node }) => (
+                        <ServiceCard
+                            excerpt={node.excerpt}
+                            path={node.frontmatter.path}
+                            title={node.frontmatter.title}
+                        />
                     ))}
                     <div className="col-12 text-center">
                         <Link className="button button-primary mt-2" to="/services">
