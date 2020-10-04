@@ -88,7 +88,7 @@ export const query = graphql`
         }
         allMarkdownRemark(
             filter: { fileAbsolutePath: { regex: "/services/" } }
-            sort: { fields: [frontmatter___date], order: DESC }
+            sort: { fields: [frontmatter___position], order: ASC }
         ) {
             edges {
                 node {
@@ -96,7 +96,6 @@ export const query = graphql`
                     frontmatter {
                         path
                         title
-                        date(formatString: "DD MMMM YYYY")
                     }
                     excerpt
                 }

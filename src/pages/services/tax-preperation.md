@@ -1,11 +1,7 @@
 ---
-path: '/services/tax-preperation'
-title: 'Tax Preperation'
-date: 2018-11-18T12:33:46+10:00
-image: '/services/noun_1013177.png'
-draft: false
-featured: true
-weight: 2
+path: "/services/consulting"
+title: "Consultorías especializadas"
+position: 6
 ---
 
 Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,
@@ -13,9 +9,9 @@ clipeus fatetur, mira inter accedere. Dedit dum raptoresque Oete dolorem
 Cretaeas enim [ipse pectora excusat](#in-poscat) candentibus fertur? Furtiva
 Orontes Erysicthona dona, est per Achille viridi draconis cultis mota milia.
 
-- Nata perque
-- Et ferrugine laedam
-- Cedere tandem Atlante maiestas Italicis ut forma
+-   Nata perque
+-   Et ferrugine laedam
+-   Cedere tandem Atlante maiestas Italicis ut forma
 
 Levat austroque ilia castos, postquam petit confessis ad caput, ille rerum
 precor facitote nubemque. Potuit Celadon Martem?

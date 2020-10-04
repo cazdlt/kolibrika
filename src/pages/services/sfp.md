@@ -1,10 +1,7 @@
 ---
-path: '/services/mergers'
-title: 'Mergers'
-date: 2018-11-28T15:15:34+10:00
-image: '/services/default.png'
-featured: true
-draft: false
+path: "/services/sfp"
+title: "Productividad de la fuerza de ventas"
+position: 4
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
@@ -35,12 +32,12 @@ Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
 et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
 licet! Inserui quamvis Clymeni.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+-   Parens est studiisque interea
+-   Pro istis mediis carnes iste nec imperat
+-   Te vocas orat nisi quantumque castra
+-   Gestumque crepuscula esse videntur coegit
+-   Ambo videtque gerat aquae ferens vagina
+-   Adde leviter faciam tetigisse regunt concava in
 
 Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
 incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,

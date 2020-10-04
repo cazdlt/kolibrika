@@ -1,16 +1,16 @@
 // Font
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto:400,700|Crimson+Text:400");
 
 // Bootstrap
-@import 'bootstrap/functions';
-@import 'bootstrap-variables';
-@import 'bootstrap/variables';
-@import 'bootstrap/mixins';
-@import 'bootstrap/root';
-@import 'bootstrap/reboot';
-@import 'bootstrap/grid';
-@import 'bootstrap/type';
-@import 'bootstrap/tables';
+@import "bootstrap/functions";
+@import "bootstrap-variables";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/grid";
+@import "bootstrap/type";
+@import "bootstrap/tables";
 // @import "bootstrap/images";
 // @import "bootstrap/code";
 @import "bootstrap/forms";
@@ -37,57 +37,57 @@
 // @import "bootstrap/popover";
 // @import "bootstrap/carousel";
 // @import "bootstrap/print";
-@import 'bootstrap/utilities';
+@import "bootstrap/utilities";
 
 // Libraries
-@import 'libraries/hamburgers/hamburgers';
+@import "libraries/hamburgers/hamburgers";
 
 // Components
-@import 'components/page';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/sub-footer';
-@import 'components/logo';
-@import 'components/main-menu';
-@import 'components/main-menu-mobile';
-@import 'components/social';
-@import 'components/hamburger';
-@import 'components/buttons';
-@import 'components/title';
-@import 'components/content';
-@import 'components/intro';
-@import 'components/strip';
-@import 'components/whitebox';
-@import 'components/feature';
-@import 'components/call';
-@import 'components/card';
-@import 'components/card-two';
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/social";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/title";
+@import "components/content";
+@import "components/intro";
+@import "components/strip";
+@import "components/whitebox";
+@import "components/feature";
+@import "components/call";
+@import "components/card";
+@import "components/card-two";
 
 // Pages
-@import 'pages/home';
-@import 'pages/team/page-teams';
-@import 'pages/testimonials/page-testimonials';
-@import 'pages/testimonials/testimonial';
-@import 'pages/services/page-services';
-@import 'pages/services/page-service';
+@import "pages/home";
+@import "pages/team/page-teams";
+@import "pages/testimonials/page-testimonials";
+@import "pages/testimonials/testimonial";
+@import "pages/services/page-services";
+@import "pages/services/page-service";
 
 //Display breakpoints for DEV
 body:after {
-  color: #000000;
-  font-size: 12px;
-  padding: 5px;
-  font-weight: bold;
-  right: 10px;
-  position: fixed;
-  text-align: center;
-  text-transform: uppercase;
-  bottom: 10px;
-  width: 200px;
-  z-index: 9999;
-  border: solid 1px #000000;
-  @each $name, $value in $grid-breakpoints {
-    @include media-breakpoint-up($name) {
-      content: "#{$name} - min-width: #{$value}";
+    color: #000000;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    right: 10px;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: 10px;
+    width: 200px;
+    z-index: 9999;
+    border: solid 1px #000000;
+    @each $name, $value in $grid-breakpoints {
+        @include media-breakpoint-up($name) {
+            content: "#{$name} - min-width: #{$value}";
+        }
     }
-  }
 }

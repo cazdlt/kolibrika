@@ -1,8 +1,7 @@
 ---
-path: '/services/accounting'
-title: 'Accounting'
-date: 2018-11-18T12:33:46+10:00
-image: 'services/noun_591323.png'
+path: "/services/institutional"
+title: "Inteligencia competitiva: Portafolio institucional"
+position: 1
 ---
 
 Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
@@ -33,12 +32,12 @@ Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
 et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
 licet! Inserui quamvis Clymeni.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+-   Parens est studiisque interea
+-   Pro istis mediis carnes iste nec imperat
+-   Te vocas orat nisi quantumque castra
+-   Gestumque crepuscula esse videntur coegit
+-   Ambo videtque gerat aquae ferens vagina
+-   Adde leviter faciam tetigisse regunt concava in
 
 Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
 incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,

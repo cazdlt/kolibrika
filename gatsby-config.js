@@ -18,7 +18,7 @@ module.exports = {
                 link: "/services"
             },
             {
-                name: "Equipo",
+                name: "Nosotros",
                 link: "/team"
             },
             {
