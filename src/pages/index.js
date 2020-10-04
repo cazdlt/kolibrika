@@ -8,12 +8,12 @@ import Call from "../components/Call";
 const Home = (props) => {
     const markdown = props.data.allMarkdownRemark.edges;
     const json = props.data.allFeaturesJson.edges;
-    const metadata=props.data.site.siteMetadata
+    const metadata = props.data.site.siteMetadata;
     return (
         <Layout bodyClass="page-home">
             <SEO title="Inicio" />
             <Helmet>
-                <meta name="description" content="Inteligencia de mercados a la medida de su negocio." />
+                <meta name="description" content={metadata.description} />
             </Helmet>
             {/* <div className="intro"> */}
             <div className="container intro-home">
@@ -80,8 +80,8 @@ const Home = (props) => {
 
 export const query = graphql`
     query {
-        site{
-            siteMetadata{
+        site {
+            siteMetadata {
                 title
                 description
             }

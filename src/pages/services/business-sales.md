@@ -1,8 +1,8 @@
 ---
-path: '/services/business-sales'
-title: 'Business Sales'
+path: "/services/business-sales"
+title: "Business Sales"
 date: 2018-11-28T15:15:26+10:00
-image: '/services/default.png'
+# image: "/images/kolikoli.png"
 featured: true
 draft: false
 ---
@@ -13,9 +13,9 @@ nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
 cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
 petunt dempserat dixisse, pro raptae aut male?
 
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
+-   Dente reponere dixere referre excessitque seque
+-   Tacui si cui inde haec ubi trepidas
+-   Coniunx nulla aut
 
 ## Geniti facinus praeruptam atris ab manus in
 

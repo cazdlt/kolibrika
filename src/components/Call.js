@@ -33,12 +33,19 @@ const Call = (props) => (
         <div className="card-body">
             <p class="card-text my-2">
                 {/* <span class="line tag"> Teléfono: </span> */}
-                <img alt="PhoneIcon" src={iconPhone} /> <span> {props.data.site.siteMetadata.contact.phone}</span>
+                <img alt="PhoneIcon" src={iconPhone} /> 
+                <span> 
+                    <a target="_blank" rel="noopener noreferrer" href={`https://wa.me/${props.data.site.siteMetadata.contact.phone.replace(/[^0-9]/g, '')}`}>
+                         {props.data.site.siteMetadata.contact.phone}
+                    </a>
+                </span>
             </p>
 
             <p class="card-text my-2">
-                <img alt="PhoneIcon" src={iconMail} /><span> <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
-                        {props.data.site.siteMetadata.contact.email}
+                <img alt="MailIcon" src={iconMail} />
+                <span> 
+                    <a href={`mailto:${props.data.site.siteMetadata.contact.email}`}>
+                         {props.data.site.siteMetadata.contact.email}
                     </a>
                 </span>
             </p>
