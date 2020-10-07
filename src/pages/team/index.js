@@ -16,7 +16,7 @@ const Team = (props) => {
             <div className="intro">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-sm-8">
                             <h1>{aboutUs.frontmatter.title}</h1>
                             <div dangerouslySetInnerHTML={{ __html: aboutUs.html }} />
                         </div>

@@ -3,15 +3,15 @@ import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 import favicon from "../../static/favicon.svg";
 
-const metadata = data.site.siteMetadata;
-
 const SEO = (props) => (
     <StaticQuery
         query={detailsQuery}
         render={(data) => {
+            const metadata = data.site.siteMetadata;
             const title = props.title || metadata.title;
             const desc = props.description || metadata.description;
             const keywords = props.keywords || metadata.keywords;
+
             return (
                 <Helmet
                     htmlAttributes={{
