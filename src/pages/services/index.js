@@ -8,12 +8,12 @@ const Services = (props) => {
     const services = props.data.allMarkdownRemark.edges;
     return (
         <Layout bodyClass="page-services">
-            <SEO title="Services" />
+            <SEO title="Servicios" />
             <div className="intro">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h1>Services</h1>
+                            <h1>Servicios</h1>
                         </div>
                     </div>
                 </div>

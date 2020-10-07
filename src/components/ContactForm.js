@@ -1,7 +1,8 @@
 import React from "react";
 
 const ContactForm = (props) => (
-    <form id="form" name="contacto" method="POST" data-netlify="true">
+    <form id="form" name="contacto" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contacto" />
         <div className="row form-group">
             <div className="col-md-4 col-sm-12">
                 <label for="name">Nombre de contacto</label>

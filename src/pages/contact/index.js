@@ -6,7 +6,7 @@ import ContactForm from "../../components/ContactForm";
 
 const Contact = (props) => (
     <Layout bodyClass="page-contact">
-        <SEO title="Contact" />
+        <SEO title="Contacto" />
 
         <div className="intro intro-small">
             <div className="container">

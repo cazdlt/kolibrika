@@ -7,12 +7,12 @@ import TeamCard from "../../components/TeamCard";
 const Team = (props) => {
     const teams = props.data.members.edges;
     const aboutUs = props.data.aboutus.edges[0].node;
-    console.log(aboutUs);
-    console.log(aboutUs.frontmatter.title);
-    console.log(aboutUs.html);
+    // console.log(aboutUs);
+    // console.log(aboutUs.frontmatter.title);
+    // console.log(aboutUs.html);
     return (
         <Layout bodyClass="page-teams">
-            <SEO title="Team" />
+            <SEO title="Nosotros" />
             <div className="intro">
                 <div className="container">
                     <div className="row">
